@@ -160,7 +160,7 @@ Please download the ISIC and USK-Normal Skin datasets, available as original ima
 <small>_Fig. 5. Streamlit interface deployed on NVIDIA Jetson Orin Nano. The interface allows users to upload skin images and view real-time classification results, including prediction probabilities and inference time._</small>
 <br><br>
 
-# 📝 Citation
+## 📝 Citation
 
 Please consider citing our paper in your publications if the project helps your research.
 
