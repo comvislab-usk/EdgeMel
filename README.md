@@ -93,6 +93,21 @@ Please download the ISIC and USK-Normal Skin datasets, available as original ima
 
 ---
 
+## 📦 Pretrained Models
+
+Due to GitHub file size limitations, pretrained models are hosted externally.
+
+Please download the pretrained models and place them in the corresponding
+directories before running the application.
+
+- **VGG-19 (Original & CLAHE):**  
+  [🔗 Google Drive Link](https://drive.google.com/drive/folders/1hl_t-ZvveDhGEMk26v9hLMXQpSOTl9n8?usp=sharing)
+
+- **ResNet-50 (Original & CLAHE):**  
+  [🔗 Google Drive Link](https://drive.google.com/drive/folders/1EjKKeueli2KjesruRsfdnF26Ez-LI9GY?usp=sharing)
+
+---
+
 ## 🚀 How to Run
 
 This repository provides a **ready-to-use Streamlit application** for real-time melanoma classification using **pre-trained VGG-19 and ResNet-50 models**, with and without **CLAHE enhancement**.  
