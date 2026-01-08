@@ -4,9 +4,11 @@
 
 # Edge AI-Based Melanoma Classifier Through CLAHE Enhancement and Deep Learning
 
-Panca Wiguna Sitanggang (Universitas Syiah Kuala), [Kahlil Muchtar (Universitas Syiah Kuala, COMVISLAB USK)](https://comvis.mystrikingly.com/), Safrizal Razali (Universitas Syiah Kuala), Fardian (Universitas Syiah Kuala), Aulia Rahman (Universitas Syiah Kula), and Novi Maulina (Universitas Syiah Kuala) <br><br>
+Panca Wiguna Sitanggang (Universitas Syiah Kuala), [Kahlil Muchtar (Universitas Syiah Kuala, COMVISLAB USK)](https://comvis.mystrikingly.com/), Safrizal Razali (Universitas Syiah Kuala), Fardian (Universitas Syiah Kuala), Aulia Rahman (Universitas Syiah Kula), and Novi Maulina (Universitas Syiah Kuala)
 
 </div>
+
+---
 
 <div align="justify">
 
@@ -26,7 +28,8 @@ Panca Wiguna Sitanggang (Universitas Syiah Kuala), [Kahlil Muchtar (Universitas 
 </p>
 
 <small>_Fig. 2. CNN architecture used in this study, consisting of convolutional layers, pooling layers, fully connected layers, and final softmax output for classifying melanoma and normal skin images. [16]._</small>
-<br><br>
+
+---
 
 ## 📊 Data
 
@@ -37,8 +40,8 @@ Please download the ISIC and USK-Normal Skin datasets, available as original ima
 
 - **CLAHE-Enhanced Dataset:**  
   [🔗 Google Drive Link](https://drive.google.com/drive/folders/16BbVc0NzSQeFAPkaU68oR3GW_I5VAf1W?usp=sharing)
-  <br>
-  <br>
+
+---
 
 ## ⚙️ Hyperparameters
 
@@ -87,8 +90,40 @@ Please download the ISIC and USK-Normal Skin datasets, available as original ima
     </table>
   </small>
 </div>
-<br>
-<br>
+
+---
+
+## 🚀 How to Run
+
+This repository provides a **ready-to-use Streamlit application** for real-time melanoma classification using **pre-trained VGG-19 and ResNet-50 models**, with and without **CLAHE enhancement**.  
+**No training is required.**
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/comvislab-usk/EdgeMel.git
+cd EdgeMel
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+<small>If requirements.txt is not available:</small>
+
+```bash
+pip install streamlit torch torchvision opencv-python numpy pillow
+```
+
+### 3️⃣ Run the Streamlit Application
+
+```bash
+streamlit run streamlit/app.py
+```
+
+---
 
 ## 📈 Results
 
@@ -150,15 +185,18 @@ Please download the ISIC and USK-Normal Skin datasets, available as original ima
 </p>
 
 <small>_Fig. 4. Bar chart comparison of classification metrics(accuracy, precision, recall, specificity, F1-score) for VGG-19 and ResNet-50 with and without CLAHE._</small>
-<br><br>
+
+---
 
 ## 🎨 Qualitative Results
+
 <p align="center">
   <img style="width: 50%" src="media/system.png">
 </p>
 
 <small>_Fig. 5. Streamlit interface deployed on NVIDIA Jetson Orin Nano. The interface allows users to upload skin images and view real-time classification results, including prediction probabilities and inference time._</small>
-<br><br>
+
+---
 
 ## 📝 Citation
 
@@ -167,7 +205,7 @@ Please consider citing our paper in your publications if the project helps your 
 ```
 @inproceedings{sitanggang2025edgeai,
   title={Edge AI-Based Melanoma Classifier Through CLAHE Enhancement and Deep Learning},
-  author={Sitanggang, Panca Wiguna and Fardian and Muchtar, Kahlil and Rahman, Aulia and Razali, Safrizal and Maulina, Novi},
+  author={Panca Wiguna Sitanggang, Kahlil Muchtar,  Safrizal Razali, Fardian, Aulia Rahman, and Novi Maulina },
   booktitle={2025 IEEE International Conference on Networking, Intelligent Systems, and IoT (ICONS-IoT)},
   year={2025},
   doi={10.1109/ICONS-IOT65216.2025.11211091}
